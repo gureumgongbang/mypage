@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="구름공방 링크모음" />
+        <meta property="og:description" content="귀여운 소품샵 구름공방" />
+        <meta property="og:image" content="구름공방.png" />
+        <title>구름공방</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+           *{
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background-color: #ffffff;
+            }
+            .profile{
+                width: 200px;
+                height: 200px;
+                
+                background-image: url('구름공방.png');
+
+                border-radius: 100%;
+                background-position: center;
+                background-size : cover;
+
+                margin-bottom: 50px;
+            }
+            .wrap{
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .p_tag{
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            .p_tag2{
+                font-size: 13px;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                margin-bottom: 20px;
+
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+
+                color:black;
+                //border : 2px solid black;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <p class="p_tag"> ▼ 바로가기 링크 ▼ </p>
+            <p class="p_tag2"> 아래 보기 중 이동하려는 곳을 클릭하세요!</p>
+            <a target="_blank" href="https://smartstore.naver.com/gureum_gongbang_">구름공방 스토어</a>
+            <a target="_blank" href="https://idus.kr/i6Aw">아이디어스(구름공방)</a>
+            <a target="_blank" href="https://instagram.com/gureum_gongbang">구름공방 인스타그램</a>
+        </div>
+    </body>
+</html>
